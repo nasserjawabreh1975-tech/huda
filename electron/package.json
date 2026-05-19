@@ -1,10 +1,27 @@
 {
   "name": "huda-platform",
   "version": "1.0.0",
+  "description": "HUDA AI PLATFORM",
   "main": "main.js",
+  "author": "nasserjawabreh1975-tech",
+  "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "build-win": "electron-builder --win",
-    "build-linux": "electron-builder --linux"
+    "build-linux": "electron-builder --linux",
+    "build-win": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.huda.platform",
+    "productName": "HUDA",
+    "linux": {
+      "target": "AppImage"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
 }
