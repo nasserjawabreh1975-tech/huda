@@ -219,3 +219,35 @@ efivarfs        148K  147K     0 100% /sys/firmware/efi/efivars
 tmpfs           3.1G  164K  3.1G   1% /run/user/1000
 /dev/sr0        7.0M  7.0M     0 100% /media/nasser/HonorSuite      
 Tue May 19 10:35:46 AM +03 2026 :: HUDA ACTIVE
+Tue May 19 10:36:31 AM +03 2026 :: HUDA ACTIVE
+=========================
+Tue May 19 10:36:32 AM +03 2026
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       8.9Gi        18Gi        35Mi       3.2Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.1G  3.8M  3.1G   1% /run
+/dev/nvme0n1p5   92G   87G  763M 100% /
+tmpfs            16G  1.1M   16G   1% /dev/shm
+tmpfs           5.0M   20K  5.0M   1% /run/lock
+efivarfs        148K  147K     0 100% /sys/firmware/efi/efivars
+/dev/nvme0n1p1   96M   33M   64M  34% /boot/efi
+tmpfs           3.1G  160K  3.1G   1% /run/user/1000
+/dev/sr0        7.0M  7.0M     0 100% /media/nasser/HonorSuite      
+Tue May 19 10:36:46 AM +03 2026 :: HUDA ACTIVE
+Tue May 19 10:37:31 AM +03 2026 :: HUDA ACTIVE
+=========================
+Tue May 19 10:37:32 AM +03 2026
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       8.8Gi        18Gi        35Mi       3.2Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.1G  3.8M  3.1G   1% /run
+/dev/nvme0n1p5   92G   87G  763M 100% /
+tmpfs            16G  1.1M   16G   1% /dev/shm
+tmpfs           5.0M   20K  5.0M   1% /run/lock
+efivarfs        148K  147K     0 100% /sys/firmware/efi/efivars
+/dev/nvme0n1p1   96M   33M   64M  34% /boot/efi
+tmpfs           3.1G  160K  3.1G   1% /run/user/1000
+/dev/sr0        7.0M  7.0M     0 100% /media/nasser/HonorSuite      
+Tue May 19 10:37:46 AM +03 2026 :: HUDA ACTIVE
