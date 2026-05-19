@@ -1,0 +1,56 @@
+name: HUDA CLOUD BUILD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: |
+          npm install --legacy-peer-deps
+          npm install electron@28.3.3 --save-dev
+          npm install electron-builder@24.13.3 --save-dev
+
+      - name: Build Windows EXE
+        run: npx electron-builder --win portable
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HUDA-WINDOWS
+          path: dist/
+
+  build-linux:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: |
+          npm install --legacy-peer-deps
+          npm install electron@28.3.3 --save-dev
+          npm install electron-builder@24.13.3 --save-dev
+
+      - name: Build Linux AppImage
+        run: npx electron-builder --linux AppImage
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HUDA-LINUX
+          path: dist/

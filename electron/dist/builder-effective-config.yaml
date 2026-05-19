@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.huda.nuclear.ai
+productName: HUDA Nuclear AI
+linux:
+  target:
+    - AppImage
+  category: Development
+win:
+  target:
+    - nsis
+files: []
+electronVersion: 28.3.3
