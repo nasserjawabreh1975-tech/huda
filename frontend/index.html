@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>HUDA SOVEREIGN PLATFORM</title>
+
+<style>
+
+body{
+background:#020617;
+color:white;
+font-family:Arial;
+padding:40px;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:14px;
+margin-bottom:20px;
+}
+
+button{
+padding:12px;
+background:#38bdf8;
+border:none;
+border-radius:10px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.ok{
+color:#22c55e;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>HUDA SOVEREIGN PLATFORM</h1>
+
+<div class="card">
+
+<h2>Runtime Status</h2>
+
+<p class="ok">ONLINE</p>
+
+</div>
+
+<div class="card">
+
+<h2>Human Governance</h2>
+
+<p>Allow Internet Access?</p>
+<button onclick="allow('internet')">ALLOW</button>
+
+<p>Allow Execution Engine?</p>
+<button onclick="allow('execution')">ALLOW</button>
+
+<p>Allow File System Access?</p>
+<button onclick="allow('filesystem')">ALLOW</button>
+
+<p>Allow Autonomous Mode?</p>
+<button onclick="allow('autonomous')">ALLOW</button>
+
+</div>
+
+<script>
+
+function allow(type){
+
+alert("Permission Granted -> " + type)
+
+}
+
+</script>
+
+</body>
+</html>

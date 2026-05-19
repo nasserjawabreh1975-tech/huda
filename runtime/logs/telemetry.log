@@ -1,0 +1,40 @@
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.1Gi        20Gi        35Mi       1.4Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.1Gi        20Gi        35Mi       1.5Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.1Gi        20Gi        35Mi       1.5Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.2Gi        20Gi        35Mi       1.5Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.2Gi        20Gi        35Mi       1.5Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.2Gi        20Gi        35Mi       1.6Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.1Gi        20Gi        35Mi       1.6Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /
+[H[2J[3J               total        used        free      shared  buff/cache   available
+Mem:            30Gi       9.1Gi        20Gi        35Mi       1.6Gi        21Gi
+Swap:          8.0Gi       552Ki       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p5   92G   87G  1.1G  99% /

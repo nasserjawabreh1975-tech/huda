@@ -1,0 +1,15 @@
+{
+    "execution": {
+        "allow": [
+            "ls",
+            "pwd",
+            "cat"
+        ],
+        "deny": [
+            "rm",
+            "mkfs",
+            "shutdown",
+            "reboot"
+        ]
+    }
+}

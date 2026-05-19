@@ -1,0 +1,8 @@
+{
+  "human_approval_required": true,
+  "internet_access": false,
+  "execution_control": true,
+  "filesystem_protection": true,
+  "autonomous_limits": true,
+  "safe_mode": true
+}

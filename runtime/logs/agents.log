@@ -1,0 +1,9 @@
+
+HUDA AGENT SWARM
+
+[ACTIVE] planner_agent
+[ACTIVE] executor_agent
+[ACTIVE] memory_agent
+[ACTIVE] watchdog_agent
+[ACTIVE] governance_agent
+[ACTIVE] reasoning_agent
